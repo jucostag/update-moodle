@@ -10,7 +10,7 @@ First, create these environment variables for the script:
 
 Then, on $CUSTOMIZATIONS_LIST_PATH, create a **.custom** file, and list all your Moodle plugins and customizations. They will be restored after the update. Follow the example below to tell the script which file or directory and where to put it.
 
-Makefile=./
-.env=./
-auth/<your_auth_plugin>=./auth/
-theme/<your_theme>=./theme/
+- Makefile=./
+- .env=./
+- auth/<your_auth_plugin>=./auth/
+- theme/<your_theme>=./theme/
